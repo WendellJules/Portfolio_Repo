@@ -88,9 +88,6 @@ const typingText = document.querySelector("#typingg-text");
 
 const words = [
     "Information Technology Student",
-    "Web Developer",
-    "System Developer",
-    "Database Enthusiast"
 ];
 
 let wordIndex = 0;
