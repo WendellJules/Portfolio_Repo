@@ -1063,10 +1063,6 @@ section:nth-of-type(even) {
     margin-inline: auto;
   }
 
-  .glow-circle {
-    width: min(75vw, 34rem);
-  }
-
   .hero-image {
     height: 35rem;
   }
