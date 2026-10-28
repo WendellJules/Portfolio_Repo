@@ -1142,7 +1142,7 @@ section:nth-of-type(even) {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-}
+  }
 
   .floating-card {
     gap: 0.6rem;

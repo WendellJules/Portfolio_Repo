@@ -1,584 +1,583 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Wendell Jules Capatoy | Portfolio</title>
 
-    <meta name="description"
-        content="Personal portfolio of Wendell Jules Capatoy, an Information Technology student and aspiring web developer.">
+    <meta
+      name="description"
+      content="Personal portfolio of Wendell Jules Capatoy, an Information Technology student and aspiring web developer."
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Custom JavaScript -->
     <script src="main.js" defer></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- ================= HEADER ================= -->
     <header class="header">
+      <a href="#home" class="logo">WJ<span>.</span></a>
 
-        <a href="#home" class="logo">WJ<span>.</span></a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="navbar"
+        type="button"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
 
-        <button class="menu-toggle" id="menu-toggle"
-            aria-label="Open navigation" aria-expanded="false"
-            aria-controls="navbar" type="button">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+      <nav class="navbar" id="navbar" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
 
-        <nav class="navbar" id="navbar" aria-label="Main navigation">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#services" class="nav-link">Services</a>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-            <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-
-        <a href="#contact" class="header-btn">
-            Let's Connect <i class="fa-solid fa-paper-plane"></i>
-        </a>
-
+      <a href="#contact" class="header-btn">
+        Let's Connect <i class="fa-solid fa-paper-plane"></i>
+      </a>
     </header>
 
     <main>
+      <!-- ================= HOME ================= -->
+      <section class="home section" id="home">
+        <div class="home-content">
+          <p class="eyebrow">
+            <span class="red-line"></span>
+            HELLO, I AM
+          </p>
 
-        <!-- ================= HOME ================= -->
-        <section class="home section" id="home">
+          <h1>
+            Wendell Jules
+            <span class="highlight">Capatoy</span>
+          </h1>
 
-            <div class="home-content">
+          <h2>
+            IT STUDENT <span class="divider">|</span>
+            WEB DEVELOPER
+          </h2>
 
-                <p class="eyebrow">
-                    <span class="red-line"></span>
-                    HELLO, I AM
-                </p>
+          <p class="home-description">
+            I am currently studying Bachelor of Science in Information
+            Technology at Visayas State University Alangalang Campus. I am
+            passionate about building modern web applications and learning new
+            technologies.
+          </p>
 
-                <h1>
-                    Wendell Jules
-                    <span class="highlight">Capatoy</span>
-                </h1>
+          <div class="home-buttons">
+            <a href="#portfolio" class="btn">
+              View My Work
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
 
-                <h2>
-                    IT STUDENT <span class="divider">|</span>
-                    WEB DEVELOPER
-                </h2>
+            <a href="resume.html" class="text-btn">
+              View My CV
+              <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
 
-                <p class="home-description">
-                    I am currently studying Bachelor of Science in
-                    Information Technology at Visayas State University
-                    Alangalang Campus. I am passionate about building
-                    modern web applications and learning new technologies.
-                </p>
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
 
-                <div class="home-buttons">
-                    <a href="#portfolio" class="btn">
-                        View My Work
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
 
-                    <a href="resume.html" class="text-btn">
-                        View My CV
-                        <i class="fa-solid fa-download"></i>
-                    </a>
-                </div>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
 
-                <div class="social-links">
-                    <a href="https://www.facebook.com/"
-                        target="_blank" rel="noopener noreferrer"
-                        aria-label="Facebook">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
 
-                    <a href="https://www.instagram.com/"
-                        target="_blank" rel="noopener noreferrer"
-                        aria-label="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+        <div class="home-visual">
+          <div class="glow-circle"></div>
 
-                    <a href="https://github.com/"
-                        target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+          <div class="hero-image">
+            <img src="profile.png" alt="Portrait of Wendell Jules Capatoy" />
+          </div>
 
-                    <a href="https://www.linkedin.com/"
-                        target="_blank" rel="noopener noreferrer"
-                        aria-label="LinkedIn">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                </div>
+          <div class="floating-card student-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+              <h4>BSIT Student</h4>
+              <p>VSU Alangalang Campus</p>
+            </div>
+          </div>
 
+          <div class="floating-card projects-card">
+            <i class="fa-solid fa-code"></i>
+            <p>Projects</p>
+            <h3>Learning & Building</h3>
+          </div>
+
+          <div class="floating-card goal-card">
+            <i class="fa-regular fa-star"></i>
+            <div>
+              <h4>My Goal</h4>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section class="about section" id="about">
+        <div class="about-visual">
+          <div class="about-image main-about-image">
+            <img src="me.jpg" alt="#" loading="lazy" />
+          </div>
+
+          <div class="about-image code-about-image">
+            <img src="voting.png" alt="#" loading="lazy" />
+          </div>
+
+          <div class="about-image campus-about-image">
+            <img src="campus.jpg" alt="University campus" loading="lazy" />
+          </div>
+
+          <div class="stat-card">
+            <h3>BSIT</h3>
+            <p>My Degree Program</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow">
+            <span class="red-line"></span>
+            ABOUT ME
+          </p>
+
+          <h2>WHO AM <span class="highlight">I?</span></h2>
+
+          <p class="about-description">
+            I am Wendell Jules Capatoy, an Information Technology student at
+            Visayas State University Alangalang Campus. I am passionate about
+            technology, web development, programming, and problem-solving.
+          </p>
+
+          <p class="about-description">
+            I enjoy learning new technologies and applying my knowledge to
+            projects that help me grow as a future IT professional.
+          </p>
+
+          <ul class="about-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Currently studying BS Information Technology
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Learning web development and system design
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Developing database management skills
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              Committed to continuous learning
+            </li>
+          </ul>
+
+          <a href="#services" class="btn">
+            Explore My Skills
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- ================= SERVICES ================= -->
+      <section class="services section" id="services">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">
+              <span class="red-line"></span>
+              MY SERVICES
+            </p>
+
+            <h2>
+              THE EASE-SERVICE
+              <span class="highlight">PROCESS</span>
+            </h2>
+
+            <p class="section-description">
+              I use my growing IT knowledge to develop useful digital solutions
+              and creative projects.
+            </p>
+          </div>
+
+          <a href="#contact" class="btn">
+            Work With Me
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-code"></i>
             </div>
 
-            <div class="home-visual">
+            <h3>Web Development</h3>
 
-                <div class="glow-circle"></div>
+            <p>
+              Building responsive and user-friendly websites using HTML, CSS,
+              JavaScript, and modern web development practices.
+            </p>
 
-                <div class="hero-image">
-                    <img src="profile.png"
-                        alt="Portrait of Wendell Jules Capatoy">
-                </div>
+            <a href="#contact" class="card-link">
+              Read More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
 
-                <div class="floating-card student-card">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <div>
-                        <h4>BSIT Student</h4>
-                        <p>VSU Alangalang Campus</p>
-                    </div>
-                </div>
-
-                <div class="floating-card projects-card">
-                    <i class="fa-solid fa-code"></i>
-                    <p>Projects</p>
-                    <h3>Learning & Building</h3>
-                </div>
-
-                <div class="floating-card goal-card">
-                    <i class="fa-regular fa-star"></i>
-                    <div>
-                        <h4>My Goal</h4>
-                        <p>Full Stack Developer</p>
-                    </div>
-                </div>
-
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-gears"></i>
             </div>
 
-        </section>
+            <h3>System Development</h3>
 
-        <!-- ================= ABOUT ================= -->
-        <section class="about section" id="about">
+            <p>
+              Designing and developing practical systems that organize
+              information and help improve everyday workflows.
+            </p>
 
-            <div class="about-visual">
+            <a href="#contact" class="card-link">
+              Read More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
 
-                <div class="about-image main-about-image">
-                    <img src="me.jpg" alt="#"
-                        loading="lazy">
-                </div>
-
-                <div class="about-image code-about-image">
-                    <img src="voting.png" alt="#"
-                        loading="lazy">
-                </div>
-
-                <div class="about-image campus-about-image">
-                    <img src="campus.jpg" alt="University campus"
-                        loading="lazy">
-                </div>
-
-                <div class="stat-card">
-                    <h3>BSIT</h3>
-                    <p>My Degree Program</p>
-                </div>
-
+          <article class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-database"></i>
             </div>
 
-            <div class="about-content">
+            <h3>Database Management</h3>
 
-                <p class="eyebrow">
-                    <span class="red-line"></span>
-                    ABOUT ME
-                </p>
+            <p>
+              Organizing, maintaining, and managing structured data using
+              relational database concepts and SQL.
+            </p>
 
-                <h2>WHO AM <span class="highlight">I?</span></h2>
+            <a href="#contact" class="card-link">
+              Read More
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+        </div>
+      </section>
 
-                <p class="about-description">
-                    I am Wendell Jules Capatoy, an Information Technology
-                    student at Visayas State University Alangalang Campus.
-                    I am passionate about technology, web development,
-                    programming, and problem-solving.
-                </p>
+      <!-- ================= PORTFOLIO ================= -->
+      <section class="portfolio section" id="portfolio">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">
+              <span class="red-line"></span>
+              MY PORTFOLIO
+            </p>
 
-                <p class="about-description">
-                    I enjoy learning new technologies and applying my
-                    knowledge to projects that help me grow as a future
-                    IT professional.
-                </p>
+            <h2>
+              FEATURED
+              <span class="highlight">PROJECTS</span>
+            </h2>
 
-                <ul class="about-list">
-                    <li>
-                        <i class="fa-solid fa-circle-check"></i>
-                        Currently studying BS Information Technology
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-circle-check"></i>
-                        Learning web development and system design
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-circle-check"></i>
-                        Developing database management skills
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-circle-check"></i>
-                        Committed to continuous learning
-                    </li>
-                </ul>
+            <p class="section-description">
+              A selection of projects representing my learning and development
+              in information technology.
+            </p>
+          </div>
+        </div>
 
-                <a href="#services" class="btn">
-                    Explore My Skills
-                    <i class="fa-solid fa-arrow-right"></i>
+        <div class="portfolio-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="website.png"
+                alt="Personal portfolio website project"
+                loading="lazy"
+              />
+
+              <span class="project-category"> Personal Portfolio </span>
+            </div>
+
+            <div class="project-info">
+              <h3>Personal Portfolio Website</h3>
+
+              <p>
+                A personal website built to showcase my background, skills, and
+                projects.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="bible.png" alt="bible app" loading="lazy" />
+
+              <span class="project-category">
+                Bible App System Development
+              </span>
+            </div>
+
+            <div class="project-info">
+              <h3>Bible Application</h3>
+
+              <p>
+                A simple and user-friendly Bible application to read and explore
+                Bible verses, navigate books and chapters and deepen their
+                understanding of God's word.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="readingtracker.png"
+                alt="readingtracker project"
+                loading="lazy"
+              />
+
+              <span class="project-category"> Reading Tracker </span>
+            </div>
+
+            <div class="project-info">
+              <h3>Book Shelves Reading Tracker</h3>
+
+              <p>
+                A personal book management application that helps users organize
+                their books want to read, currently reading, and finished
+                shelves while tracking reading progress and discovering new
+                books.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="voting.png"
+                alt="voting system project"
+                loading="lazy"
+              />
+
+              <span class="project-category"> VSUA Voting System </span>
+            </div>
+
+            <div class="project-info">
+              <h3></h3>
+
+              <p>
+                A system project to eliminate the manuall process of school
+                elections.
+              </p>
+
+              <a href="#contact" class="project-link">
+                View Project
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section class="contact section" id="contact">
+        <div class="contact-content">
+          <p class="eyebrow">
+            <span class="red-line"></span>
+            GET IN TOUCH
+          </p>
+
+          <h2>
+            LET'S WORK
+            <span class="highlight">TOGETHER</span>
+          </h2>
+
+          <p>
+            Have a question or project idea? Feel free to reach out. I would
+            love to hear from you.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>
+                410 Malvar Street Barangay<br />
+                San Roque Alangalang Leyte
+              </p>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <p>
+                <a href="mailto:your-email@example.com">
+                  wendelljulescapatoy@gmail.com
                 </a>
-
+              </p>
             </div>
 
-        </section>
-
-        <!-- ================= SERVICES ================= -->
-        <section class="services section" id="services">
-
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow">
-                        <span class="red-line"></span>
-                        MY SERVICES
-                    </p>
-
-                    <h2>
-                        THE EASE-SERVICE
-                        <span class="highlight">PROCESS</span>
-                    </h2>
-
-                    <p class="section-description">
-                        I use my growing IT knowledge to develop useful
-                        digital solutions and creative projects.
-                    </p>
-                </div>
-
-                <a href="#contact" class="btn">
-                    Work With Me
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <p>+639635052639</p>
             </div>
-
-            <div class="services-grid">
-
-                <article class="service-card">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-code"></i>
-                    </div>
-
-                    <h3>Web Development</h3>
-
-                    <p>
-                        Building responsive and user-friendly websites
-                        using HTML, CSS, JavaScript, and modern web
-                        development practices.
-                    </p>
-
-                    <a href="#contact" class="card-link">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-gears"></i>
-                    </div>
-
-                    <h3>System Development</h3>
-
-                    <p>
-                        Designing and developing practical systems
-                        that organize information and help improve
-                        everyday workflows.
-                    </p>
-
-                    <a href="#contact" class="card-link">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-database"></i>
-                    </div>
-
-                    <h3>Database Management</h3>
-
-                    <p>
-                        Organizing, maintaining, and managing structured
-                        data using relational database concepts and SQL.
-                    </p>
-
-                    <a href="#contact" class="card-link">
-                        Read More
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </article>
-
-            </div>
-
-        </section>
-
-        <!-- ================= PORTFOLIO ================= -->
-        <section class="portfolio section" id="portfolio">
-
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow">
-                        <span class="red-line"></span>
-                        MY PORTFOLIO
-                    </p>
-
-                    <h2>
-                        FEATURED
-                        <span class="highlight">PROJECTS</span>
-                    </h2>
-
-                    <p class="section-description">
-                        A selection of projects representing my learning
-                        and development in information technology.
-                    </p>
-                </div>
-            </div>
-
-            <div class="portfolio-grid">
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="website.png"
-                            alt="Personal portfolio website project"
-                            loading="lazy">
-
-                        <span class="project-category">
-                            Personal Portfolio
-                        </span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3>Personal Portfolio Website</h3>
-
-                        <p>
-                            A personal website built to showcase
-                            my background, skills, and projects.
-                        </p>
-
-                        <a href="#contact" class="project-link">
-                            View Project
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="bible.png"
-                            alt="bible app"
-                            loading="lazy">
-
-                        <span class="project-category">
-                            Bible App System Development
-                        </span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3>Bible Application</h3>
-
-                        <p>
-                            A simple and user-friendly Bible application to 
-                            read and explore Bible verses, navigate books and chapters
-                            and deepen their understanding of God's word.
-                        </p>
-
-                        <a href="#contact" class="project-link">
-                            View Project
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="readingtracker.png"
-                            alt="readingtracker project"
-                            loading="lazy">
-
-                        <span class="project-category">
-                            Reading Tracker 
-                        </span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3>Book Shelves Reading Tracker</h3>
-
-                        <p>
-                            A personal book management application that helps users
-                            organize their books want to read, currently reading,
-                            and finished shelves while tracking reading progress
-                            and discovering new books.
-                        </p>
-
-                        <a href="#contact" class="project-link">
-                            View Project
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="voting.png"
-                            alt="voting system project"
-                            loading="lazy">
-
-                        <span class="project-category">
-                            VSUA Voting System
-                        </span>
-                    </div>
-
-                    <div class="project-info">
-                        <h3></h3>
-
-                        <p>
-                            A system project to eliminate the manuall process of
-                            school elections.
-                        </p>
-
-                        <a href="#contact" class="project-link">
-                            View Project
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-
-        </section>
-
-        <!-- ================= CONTACT ================= -->
-        <section class="contact section" id="contact">
-
-            <div class="contact-content">
-
-                <p class="eyebrow">
-                    <span class="red-line"></span>
-                    GET IN TOUCH
-                </p>
-
-                <h2>
-                    LET'S WORK
-                    <span class="highlight">TOGETHER</span>
-                </h2>
-
-                <p>
-                    Have a question or project idea? Feel free to reach
-                    out. I would love to hear from you.
-                </p>
-
-                <div class="contact-details">
-
-                    <div class="contact-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>
-                            410 Malvar Street Barangay<br>
-                            San Roque Alangalang Leyte
-                        </p>
-                    </div>
-
-                    <div class="contact-item"> 
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>
-                            <a href="mailto:your-email@example.com">
-                                wendelljulescapatoy@gmail.com
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="contact-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>
-                            +639635052639
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <form class="contact-form" id="contact-form">
-
-                <div class="input-row">
-                    <input type="text" name="fullName"
-                        placeholder="Full Name" autocomplete="name" required>
-
-                    <input type="email" name="email"
-                        placeholder="Email Address" autocomplete="email"
-                        required>
-                </div>
-
-                <div class="input-row">
-                    <input type="tel" name="mobile"
-                        placeholder="Mobile Number" autocomplete="tel">
-
-                    <input type="text" name="subject"
-                        placeholder="Subject" required>
-                </div>
-
-                <textarea name="message" rows="6"
-                    placeholder="Your Message" required></textarea>
-
-                <button type="submit" class="btn submit-btn">
-                    Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
-                </button>
-
-                <p id="form-status" role="status" aria-live="polite"></p>
-
-            </form>
-
-        </section>
-
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="input-row">
+            <input
+              type="text"
+              name="fullName"
+              placeholder="Full Name"
+              autocomplete="name"
+              required
+            />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="input-row">
+            <input
+              type="tel"
+              name="mobile"
+              placeholder="Mobile Number"
+              autocomplete="tel"
+            />
+
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn submit-btn">
+            Send Message
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+
+          <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
     </main>
 
     <!-- ================= FOOTER ================= -->
     <footer class="footer">
+      <a href="#home" class="logo">WJ<span>.</span></a>
 
-        <a href="#home" class="logo">WJ<span>.</span></a>
+      <p>
+        © <span id="year">2026</span>
+        Wendell Jules Capatoy. All rights reserved.
+      </p>
 
-        <p>
-            © <span id="year">2026</span>
-            Wendell Jules Capatoy. All rights reserved.
-        </p>
-
-        <div class="footer-socials">
-            <a href="https://www.facebook.com/wendelljules.quilaquil"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="Facebook">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-
-            <a href="https://www.instagram.com/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="Instagram">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a href="https://github.com/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="GitHub">
-                <i class="fa-brands fa-github"></i>
-            </a>
-        </div>
-
-        <a href="#home" class="back-to-top" aria-label="Back to top">
-            <i class="fa-solid fa-arrow-up"></i>
+      <div class="footer-socials">
+        <a
+          href="https://www.facebook.com/wendelljules.quilaquil"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
         </a>
 
-    </footer>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
 
-</body>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+      <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+  </body>
 </html>
