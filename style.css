@@ -1063,6 +1063,10 @@ section:nth-of-type(even) {
     margin-inline: auto;
   }
 
+  .glow-circle {
+    width: min(75vw, 34rem);
+  }
+
   .hero-image {
     height: 35rem;
   }
@@ -1132,10 +1136,13 @@ section:nth-of-type(even) {
     min-height: 31rem;
   }
 
-  .hero-image {
-    height: 30rem;
-    width: 85%;
-  }
+  .hero-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
 
   .floating-card {
     gap: 0.6rem;
