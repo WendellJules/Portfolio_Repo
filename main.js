@@ -206,8 +206,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Check configuration.
       if (
-        EMAILJS_PUBLIC_KEY === "idzdufqTbLfoNSdZG" ||
-        EMAILJS_TEMPLATE_ID === "template_yrg6fk7"
+        EMAILJS_PUBLIC_KEY === "YOUR_PUBLIC_KEY" ||
+        EMAILJS_TEMPLATE_ID === "EMAILJS_TEMPLATE_ID"
       ) {
 
         formStatus.textContent =
