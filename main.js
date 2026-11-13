@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Display success message.
         formStatus.textContent =
-          "Your message has been sent successfully! Thank you for contacting me.";
+          "Your message has been sent successfully! Thank you for contacting me. Lets work together soon!";
 
         formStatus.style.color = "#22c55e";
 
