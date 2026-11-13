@@ -5,7 +5,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  // ---------- SELECT ELEMENTS ----------
+  // SELECT ELEMENTS
   const menuToggle = document.querySelector("#menu-toggle");
   const navbar = document.querySelector("#navbar");
   const navLinks = document.querySelectorAll(".nav-link");
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearElement = document.querySelector("#year");
   const backToTop = document.querySelector(".back-to-top");
 
-  // ---------- EMAILJS CONFIGURATION ----------
+  // EMAILJS CONFIGURATION
   const EMAILJS_PUBLIC_KEY = "idzdufqTbLfoNSdZG";
   const EMAILJS_SERVICE_ID = "service_x9qdxhn";
   const EMAILJS_TEMPLATE_ID = "template_yrg6fk7";
@@ -27,12 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- CURRENT YEAR ----------
+  // CURRENT YEAR
   if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
   }
 
-  // ---------- MOBILE MENU ----------
+  // MOBILE MENU
   function closeMenu() {
     if (!menuToggle || !navbar) return;
 
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- ACTIVE NAVIGATION LINK ----------
+  // ACTIVE NAVIGATION LINK
   function setActiveLink(sectionId) {
 
     navLinks.forEach((link) => {
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- SCROLL REVEAL ANIMATIONS ----------
+  // SCROLL REVEAL ANIMATIONS
   const revealElements = document.querySelectorAll(
     ".about-visual, .about-content, .service-card, " +
     ".project-card, .contact-content, .contact-form"
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- EMAILJS CONTACT FORM ----------
+  // EMAILJS CONTACT FORM
   if (contactForm && formStatus) {
 
     contactForm.addEventListener("submit", async (event) => {
@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- BACK TO TOP ----------
+  //BACK TO TOP
   if (backToTop) {
 
     backToTop.addEventListener("click", () => {
@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ---------- CONSOLE MESSAGE ----------
+  // CONSOLE MESSAGE
   console.log(
     "%cWJ Portfolio",
     "color: #f21d2b; font-size: 20px; font-weight: bold;"
